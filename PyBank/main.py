@@ -6,7 +6,7 @@ import csv
 
 # open csv file and confirm path
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
-csvpath = os.path.join('budget_data.csv')
+csvpath = os.path.join('Resources\budget_data.csv')
 # print(csvpath)
 # open budget_data.csv file
 # open csv file and confirm path
@@ -73,7 +73,7 @@ print(" ")
 # Write the election results to a text file
 # Specify the file to write to
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
-output_path = os.path.join("PyBank_main.txt")
+output_path = os.path.join("Output Data\PyBank_main.txt")
 
 # Open the file using "write" mode. Specify the variable to hold the contents
 with open(output_path, 'w', newline='') as csvfile:
